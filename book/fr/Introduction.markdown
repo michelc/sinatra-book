@@ -4,15 +4,15 @@
 Qu'est-ce que Sinatra ?
 -----------------------
 
-Sinatra est un langage dédié (un DSL ou Domain Specific Language
-en anglais) pour créer rapidement des applications web avec Ruby.
+Sinatra est un langage dédié (un DSL ou Domain Specific Language en anglais)
+pour créer rapidement des applications web avec Ruby.
 
-La liste de ses fonctionnalités est volontairement limitée ce qui
-laisse au développeur le choix d'utiliser les outils qui lui
-conviennent en fonction de l'application à développer.
+La liste de ses fonctionnalités est volontairement limitée ce qui laisse au
+développeur le choix d'utiliser les outils qui lui conviennent en fonction de
+l'application à développer.
 
-Il n'est pas exigeant quant à l'application que vous développez,
-si ce n'est que :
+Il n'est pas exigeant quant à l'application que vous développez, si ce n'est
+que :
 
 * Son langage de programmation soit le Ruby
 * Elle utilise des URLs
@@ -59,13 +59,11 @@ conseille d'utiliser ERB (qui fait déjà parti de Ruby) ou d'installer HAML.
 La toute dernière version de Sinatra est disponible via le référentiel
 GitHub : **<http://github.com/sinatra/sinatra/tree/master>**.
 
-_TODO_
-
-You can use the _edge_ version to try new functionality or to contribute to the
-framework.  You need to have Git version control software installed
-(<http://www.git-scm.com>).  You could use either
-[rake](http://rake.rubyforge.org/) or [bundler](http://gembundler.com/). Follow
-these steps:
+Vous pouvez utiliser cette version pour essayer les dernières fonctionnalités
+ou pour participer au développement de Sinatra. Pour cela, vous devez avoir
+installé le logiciel de contrôle de source Git (<http://www.git-scm.com>)
+et utiliser [rake](http://rake.rubyforge.org/) ou
+[bundler](http://gembundler.com/).
 
 **Rake**
 
@@ -77,17 +75,17 @@ these steps:
 4. rake install
 
 **Bundler**
-Alternatively you can use bundler (http://gembundler.com/).
 
     gem install bundler
 
-To use edge sinatra with bundler, you'll have to create a gemfile listing
-sinatra's dependencies; and other dependencies for your application. In your
-application's root create your 'Gemfile':
+Pour utiliser la dernière version de Sinatra avec bundler, vous devez créer un
+gemfile pour lister les dépendances de Sinatra et celles de votre application.
+Créez votre 'Gemfile' dans la racine de votre application :
 
     gem 'sinatra', :git => 'git://github.com/sinatra/sinatra.git'
     source 'http://rubygems.org/'
 
+_TODO_
 Here we use the gemcutter source to specify where to get Sinatra's
 dependencies; alternatively you can use the git version, but that is up to you.
 So now we can install our bundle:
