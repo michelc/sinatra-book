@@ -1,27 +1,24 @@
 Contributing
 ============
 
-How can I clone the Sinatra repository?
----------------------------------------
+## There are plenty of ways to [contribute to Sinatra][contributing].
 
-First of all, you'll need the [Git][git] version control system. [Git][git] is
-available for all major platforms:
-* [Windows][git_win]
-* [Mac OS X][git_osx]
-* Linux and BSD users can usually acquire [Git][git] through their Package
-  Management System, e.g. `apt-get install git-core` on Debian systems.
+Want to help contribute recipes or tutorials into the [Sinatra
+Book][sinatra-book]? Check out the [Sinatra Book Contrib][sinatra-book-contrib]
+project for all of the recent additions from the community.
 
-After that, cloning the Sinatra repository is as easy as typing the following
-into your command line:
+If you're looking for something to work on be sure to check the [issue
+tracker][issues] first, then read up on the [styling
+guidelines][styling-guidelines]. Once you have [forked the project][forking],
+feel free to send us a [pull request][pull-requests].
 
-    git clone git://github.com/sinatra/sinatra.git
+Join us on IRC (#sinatra at irc.freenode.org) if you need help with anything.
 
-[git]: http://git.or.cz
-[git_win]: http://code.google.com/p/msysgit/
-[git_osx]: http://code.google.com/p/git-osx-installer/
+[contributing]: http://www.sinatrarb.com/contributing
+[sinatra-book]: http://github.com/sinatra/sinatra-book
+[sinatra-book-contrib]: http://github.com/sinatra/sinatra-book-contrib
+[issues]: http://github.com/sinatra/sinatra-book/issues
+[styling-guidelines]: http://github.com/sinatra/sinatra-book-contrib/wiki/Style-Guidelines
+[forking]: http://help.github.com/forking/
+[pull-requests]: http://help.github.com/pull-requests/
 
-How to create a patch?
-----------------------
-
-How to get that patch into the official Sinatra?
-------------------------------------------------
