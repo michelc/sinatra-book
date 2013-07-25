@@ -5,11 +5,7 @@ body
   { color: #222;
     background: #fafafa;
     font-size: 80%;
-    min-width: 800px;
-    font-family: 'Lucida Grande', Verdana, sans-serif;
-    padding: 1em 2em;
-    margin: auto;
-    max-width: 1024px; }
+    font-family: 'Lucida Grande', Verdana, sans-serif; }
 
 h1, h2, h3, h4, h5
   { font-family: serif; }
@@ -49,19 +45,8 @@ p
 hr
   { display: none; }
 
+#header img
+  { width: 200px; }
+
 #download
-  { float: right;
-    position: absolute;
-    right: 0px; top: 0px;
-    z-index: 1; }
-
-#download img
-  { border: none; }
-
-#toc
-  { float: left;
-    width: 300px; }
-
-#content
-  { float: right;
-    width: 700px; }
+  { display: none; }
